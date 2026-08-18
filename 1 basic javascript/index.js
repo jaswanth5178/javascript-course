@@ -1,0 +1,1 @@
+console.log("Thank you for visiting my website!");    // writes text to the console

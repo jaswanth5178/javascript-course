@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f4f7f6;
+    text-align: center;
+}
+
+.box {
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#grandparent {
+    background-color: #ff9f43;
+    width: 80%;
+    max-width: 500px;
+    border: 3px solid #ee5253;
+}
+
+#parent {
+    background-color: #0abde3;
+    width: 80%;
+    border: 3px solid #10ac84;
+}
+
+#child {
+    background-color: #ee5253;
+    width: 80%;
+    border: 3px solid #5f27cd;
+    color: white;
+}
+
+/* Highlight boxes on hover to make it interactive */
+.box:hover {
+    filter: brightness(0.9);
+}

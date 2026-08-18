@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propagation Practice</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Event Propagation Sandbox</h1>
+    <p>Open your browser console (F12) and click the boxes to watch events propagate!</p>
+
+    <!-- Nested layout components to demonstrate propagation paths -->
+    <div id="grandparent" class="box">
+        <h3>Grandparent Box</h3>
+        <div id="parent" class="box">
+            <h3>Parent Box</h3>
+            <div id="child" class="box">
+                <h3>Child Box</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
